@@ -22,10 +22,10 @@ body {
 @media all and (max-width:500px){
   .bgvideo {
     position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
+    right: auto;
+    bottom: auto;
+    min-width: auto;
+    min-height: auto;
     width: auto;  /* для мобилки auto */
     height: auto;
     z-index: -9999;
