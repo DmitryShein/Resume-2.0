@@ -1,25 +1,24 @@
-
-body {
+@media screen{
+  body {
     background: url('video.png');
     background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
   }
-
-@media screen{
   .bgvideo {
     position: fixed;
     right: 0;
     bottom: 0;
     min-width: 100%;
     min-height: 100%;
-    width: 100%;  /* для мобилки auto */
+    width: 100%;  
     height: auto;
     z-index: -9999;
   }
 }
 
 @media all and (max-width:500px){
+  body {
+    background-size: cover;
+  }
   .bgvideo {
     position: fixed;
     right: auto;
@@ -28,7 +27,6 @@ body {
     min-height: auto;
     width: auto;  /* для мобилки auto */
     height: auto;
-    z-index: -9999;
   }
 
 }
